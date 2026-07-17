@@ -1,0 +1,22 @@
+{
+  "domain": "femmto_scale",
+  "name": "Femmto Scale",
+  "bluetooth": [
+    {
+      "service_uuid": "0000ffb0-0000-1000-8000-00805f9b34fb",
+      "connectable": true,
+      "local_name": "Femmto BWS12"
+    }
+  ],
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/local/femmto_scale",
+  "iot_class": "local_push",
+  "requirements": [
+    "bleak-retry-connector>=3.10.0"
+  ],
+  "version": "0.1.3"
+}

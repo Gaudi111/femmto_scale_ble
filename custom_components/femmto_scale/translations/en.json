@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Femmto Scale",
+        "description": "Configure the Femmto BWS12 Bluetooth scale.",
+        "data": {
+          "address": "Bluetooth MAC address",
+          "name": "Name",
+          "min_weight_kg": "Minimum weight to consider a measurement (kg)",
+          "reset_weight_kg": "Reset weight threshold (kg)",
+          "stability_window_seconds": "Fallback stability window (seconds)",
+          "stability_delta_kg": "Fallback maximum variation for stable reading (kg)",
+          "stability_samples": "Fallback minimum samples for stable reading",
+          "repeat_stable_samples": "Repeated identical packets required for stable reading",
+          "stable_hold_seconds": "Seconds to keep Measurement Stable ON after detection",
+          "listen_duration_seconds": "BLE listen duration after connection (seconds)",
+          "periodic_retry_seconds": "Forced reconnect interval (seconds)",
+          "connect_cooldown_seconds": "Connection cooldown (seconds)"
+        }
+      },
+      "bluetooth_confirm": {
+        "title": "Femmto Scale",
+        "description": "Set up {name} at {address}?"
+      }
+    },
+    "abort": {
+      "already_configured": "This scale is already configured."
+    }
+  }
+}
